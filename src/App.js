@@ -1,24 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./pages/main/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Appbar from "./shared/nav/Appbar"
+import Link from "react";
 
-function App() {
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import { ThemeProvider, createTheme  } from '@mui/material/styles';
+
+const theme = createTheme ({
+  typography: {
+    fontFamily: [
+      'Lato',
+      'sans-serif',
+    ].join(','),
+  },
+  palette: {
+    primary: {
+      main: '#9F88B1',
+      dark: '#36096B',
+    },
+    secondary: {
+      main: '#FDF7FF',
+    },
+    iconColor: {
+      main: '#36096B',
+    },
+    textHeaderColor: {
+      main: '#36096B',
+    },
+  },
+});
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Appbar/>
+          <Routes>
+              <Route path="/" element={<Home/>}  />
+              <Route path="/about" element={<About/>} />
+              <Route path="/contact" element={<Contact/>} />
+          </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
