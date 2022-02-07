@@ -2,7 +2,7 @@
   "name": "msh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Shavolski.github.io/msha",
+  "homepage": "https://Shavolski.github.io/msha.git",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -24,8 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
