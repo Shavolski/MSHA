@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 const Part3 = () => {
   const classes = useStyles();
   return (
-    <Box sx={{ flexGrow: 1, height:'100vh', mb:30 }} >
+    <Box sx={{ flexGrow: 1, minHeight:'100vh', mb:30 }} >
       <Grid
         container
         sx={{height:'100vh'}}
@@ -43,8 +43,8 @@ const Part3 = () => {
           justifyContent="center"
           alignItems="center"
           xs={12}
-          sx={{ p:5 }}>
-          <Box sx={{p:10}}>
+          sx={{ pt:10 }}>
+          <Box sx={{p:5}}>
             <Typography variant="h3" color="#36096B" sx={{fontWeight: 900}}>An academy that's a breath of fresh air.</Typography>
           </Box>
         </Grid>
@@ -55,7 +55,7 @@ const Part3 = () => {
         justifyContent="center"
         alignItems="center"
         xs={12}>
-          <Grid item container direction="column" alignItems="center" justifyContent="center" xs={3}>
+          <Grid item container direction="column" alignItems="center" justifyContent="center" md={3} >
             <Grid item sx={{ bgcolor: 'primary.main', borderRadius: 5, mt:3, p:7}}>
               <CardContent>
                 <DirectionsBusIcon color="iconColor" sx={{p:1, bgcolor:"#ffffff", borderRadius: 2}}/>
@@ -80,7 +80,7 @@ const Part3 = () => {
             </Grid>
           </Grid>
 
-          <Grid item container direction="column" alignItems="center" justifyContent="center" xs={3}>
+          <Grid item container direction="column" alignItems="center" justifyContent="center" md={3}>
             <Grid item xs={12} sx={{ bgcolor: 'primary.dark', borderRadius: 5, mt:3, p:7, ml:2}}>
               <CardContent>
                 <WbSunnyIcon color="iconColor" sx={{p:1, bgcolor:"#ffffff", borderRadius: 2}}/>
@@ -107,6 +107,7 @@ const Part3 = () => {
 
         </Grid>
       </Grid>
+
     </Box>
   );
 }
