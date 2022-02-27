@@ -1,6 +1,7 @@
 {
   "name": "msh",
   "version": "0.1.0",
+  "homepage": "https://Shavolski.github.io/MSHA",
   "private": true,
   "homepage": "https://shavolski.github.io",
   "dependencies": {
