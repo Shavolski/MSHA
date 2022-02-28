@@ -21,7 +21,7 @@ import mainBGWhite from "./../../shared/images/mainBGWhite.png";
 
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import FlagIcon from '@mui/icons-material/Flag';
-import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
+import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles(theme => ({
@@ -88,7 +88,7 @@ const About = () => {
       <Box sx={{ p:4 }}>
         <Typography variant="h3" color="#36096B" sx={{fontWeight: 900, pb:4}}>Why Mercy Safe Haven?</Typography>
         <Typography variant="h6" color="primary" sx={{fontWeight: 400, pb:1}}>We pride ourselves on bringing forth new and exciting teaching methodologies that cater to each child's individuality and embraces their personal strengths.</Typography>
-        <Typography variant="h6" color="primary" sx={{fontWeight: 400}}>Our mission, vision and value statements were written with a view of preparing children for life. Your child is not simply joining another school school but joining a healthy community that accelerates their potential while still supports a stimulating environment for our children to grow. </Typography>
+        <Typography variant="h6" color="primary" sx={{fontWeight: 400}}>Our mission, vision and value statements were written with a view of preparing children for life. Your child is not simply joining another school but joining a healthy community that accelerates their potential while still supporting a stimulating environment for our children to grow. </Typography>
       </Box>
     </Container>
       <Container maxWidth="lg">
@@ -149,12 +149,12 @@ const About = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <CardContent>
-                  <DirectionsBusIcon color="iconColor" sx={{p:1, bgcolor:"#ffffff", borderRadius: 2}}/>
+                  <AllInclusiveIcon color="iconColor" sx={{p:1, bgcolor:"#ffffff", borderRadius: 2}}/>
                   <Typography variant="h5" component="div"  color="primary" sx={{fontWeight: 700, mb: 1.5}}>
                     Our Values
                   </Typography>
                   <Typography sx={{ mb: 1.5, fontWeight: 400 }} color="secondary" variant="h6">
-                    At Mercy Safe Haven Academy, our aproach to education enables, guides and facilitates a strong sense of community among people from all walks of life. Humility, respect and intergrity are important as Individual strengths and learning styles are actively affirmed in each classroom.
+                    At Mercy Safe Haven Academy, our aproach to education enables, guides and facilitates a strong sense of community among people from all walks of life. Humility, respect and intergrity are important as individual strengths and learning styles are actively affirmed in each classroom.
                   </Typography>
                 </CardContent>
               </Grid>
