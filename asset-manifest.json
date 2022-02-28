@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd6a4651.css",
+    "main.js": "/static/js/main.b8e498d9.js",
+    "static/js/787.6edc0bb1.chunk.js": "/static/js/787.6edc0bb1.chunk.js",
+    "static/media/kidsCake.png": "/static/media/kidsCake.7c452310f3d873316478.png",
+    "static/media/mission_MSHA.jpg": "/static/media/mission_MSHA.3de8b2a50ae6dc50ab68.jpg",
+    "static/media/vision_MSHA.jpg": "/static/media/vision_MSHA.a7dda57ad2510dc5481c.jpg",
+    "static/media/values_MSHA.jpg": "/static/media/values_MSHA.718da5436a0b224be05e.jpg",
+    "static/media/secondPic.jpg": "/static/media/secondPic.ba9b4e9e8814e29399e3.jpg",
+    "static/media/gallery_10.jpg": "/static/media/gallery_10.640d85f372b47db4216f.jpg",
+    "static/media/gallery_1.jpg": "/static/media/gallery_1.e507b579d3e816f1d3f8.jpg",
+    "static/media/gallery_3.jpg": "/static/media/gallery_3.e7f7d9c19d4c37ad1bee.jpg",
+    "static/media/gallery_5.jpg": "/static/media/gallery_5.50a33fef9fde325e9fe1.jpg",
+    "static/media/gallery_4.jpg": "/static/media/gallery_4.26c7bf72ba3ca82e6db1.jpg",
+    "static/media/gallery_7.jpg": "/static/media/gallery_7.561524d2c487bb4ca4c8.jpg",
+    "static/media/gallery_6.jpg": "/static/media/gallery_6.86b5c822fe5c479b55e3.jpg",
+    "static/media/gallery_8.jpg": "/static/media/gallery_8.36660d7532a956afbde9.jpg",
+    "static/media/gallery_9.jpg": "/static/media/gallery_9.535b5258877749419211.jpg",
+    "static/media/gallery_2.jpg": "/static/media/gallery_2.a2406520da27e17a2501.jpg",
+    "static/media/mainBG.png": "/static/media/mainBG.ebcf7ab5f176f2d47cd6.png",
+    "static/media/mainBGWhite.png": "/static/media/mainBGWhite.6e7433c2b2ed3b25217c.png",
+    "static/media/logo.jpg": "/static/media/logo.e5c143f15581426b6b99.jpg",
+    "index.html": "/index.html",
+    "main.fd6a4651.css.map": "/static/css/main.fd6a4651.css.map",
+    "main.b8e498d9.js.map": "/static/js/main.b8e498d9.js.map",
+    "787.6edc0bb1.chunk.js.map": "/static/js/787.6edc0bb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd6a4651.css",
+    "static/js/main.b8e498d9.js"
+  ]
+}
